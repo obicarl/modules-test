@@ -1,4 +1,4 @@
-module "vpc" {
-  source  = "app.terraform.io/obicarl/vpc/aws"
-  version = "0.0.3"
+module "ec2-instance" {
+  source  = "app.terraform.io/obicarl/ec2-instance/aws"
+  version = "0.0.1"
 }
